@@ -145,7 +145,7 @@
                         <i class="bi bi-person-fill text-white fs-3"></i>
                       </div>
                     </div>
-                    <h4 class="fw-bold">Max Mustermann</h4>
+                    <h4 class="fw-bold">Andre Dingfelder</h4>
                     <p class="text-muted">Frontend Entwickler</p>
                     <div class="contact-social mt-3">
                       <a href="#" class="btn btn-outline-primary btn-sm me-2">

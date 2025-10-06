@@ -4,7 +4,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
         <a class="navbar-brand fw-bold" href="#home">
-          <i class="bi bi-code-slash me-2"></i>Portfolio
+          <i class="bi bi-code-slash me-2"></i>ANDRE DINGFELDER
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span class="navbar-toggler-icon"></span>
