@@ -46,7 +46,7 @@
           <div class="hero-content">
             <h1 class="display-3 fw-bold mb-4">
               Hallo, ich bin
-              <span class="gradient-text">Max Mustermann</span>
+              <span class="gradient-text">Andre Dingfelder</span>
             </h1>
             <h2 class="h3 mb-4 text-muted">
               <span class="typing-text">{{ currentText }}</span>
@@ -67,7 +67,7 @@
             
             <!-- Buy Me a Coffee Button -->
             <div class="mt-4">
-              <a href="https://buymeacoffee.com/yourusername" target="_blank" class="btn btn-warning btn-lg">
+              <a href="https://buymeacoffee.com/thunder386" target="_blank" class="btn btn-warning btn-lg">
                 <i class="bi bi-cup-hot-fill me-2"></i>Buy me a Coffee
               </a>
             </div>
@@ -77,10 +77,10 @@
         <div class="col-lg-6" data-aos="fade-left">
           <div class="hero-image text-center">
             <div class="profile-card position-relative">
-              <!-- Profile Image Placeholder -->
+              <!-- Profile Image -->
               <div class="profile-img-container mx-auto mb-4">
-                <div class="profile-img bg-primary rounded-circle d-flex align-items-center justify-content-center">
-                  <i class="bi bi-person-fill fs-1 text-white"></i>
+                <div class="profile-img rounded-circle overflow-hidden shadow-lg">
+                  <img src="/images/profile.png" alt="Andre Dingfelder" class="w-100 h-100 object-fit-cover">
                 </div>
                 <!-- Floating badges around profile -->
                 <div class="floating-badge position-absolute" style="top: 10%; right: 10%;">

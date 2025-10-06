@@ -5,10 +5,8 @@
         <div class="col-lg-6" data-aos="fade-right">
           <div class="about-image text-center mb-5 mb-lg-0">
             <div class="image-container position-relative">
-              <div class="main-image bg-primary rounded-3 shadow-lg">
-                <div class="d-flex align-items-center justify-content-center h-100">
-                  <i class="bi bi-person-fill fs-1 text-white"></i>
-                </div>
+              <div class="main-image bg-primary rounded-3 shadow-lg overflow-hidden">
+                <img src="/images/profile.png" alt="Andre Dingfelder" class="w-100 h-100 object-fit-cover">
               </div>
               <!-- Floating elements around image -->
               <div class="floating-icon position-absolute" style="top: -20px; right: -20px;">
@@ -32,7 +30,7 @@
             
             <div class="about-text mb-4">
               <p class="lead">
-                Hallo! Ich bin Max Mustermann, ein leidenschaftlicher Webentwickler mit über 3 Jahren Erfahrung 
+                Hallo! Ich bin Andre Dingfelder, ein leidenschaftlicher Webentwickler mit über 3 Jahren Erfahrung 
                 in der Entwicklung moderner Webanwendungen.
               </p>
               
@@ -63,7 +61,7 @@
               <div class="col-md-6">
                 <div class="info-card card border-0 shadow-sm h-100">
                   <div class="card-body text-center">
-                    <i class="bi bi-graduation-cap-fill text-success fs-3 mb-3"></i>
+                    <i class="bi bi-mortarboard-fill text-success fs-3 mb-3"></i>
                     <h5 class="card-title">Ausbildung</h5>
                     <p class="card-text text-muted">Informatik B.Sc.</p>
                   </div>
@@ -77,7 +75,7 @@
               <div class="row g-3">
                 <div class="col-6 col-md-3">
                   <div class="value-item text-center">
-                    <i class="bi bi-shield-check-fill text-primary fs-4 mb-2"></i>
+                    <i class="bi bi-award-fill text-primary fs-4 mb-2"></i>
                     <h6 class="small fw-bold">Zuverlässigkeit</h6>
                   </div>
                 </div>
