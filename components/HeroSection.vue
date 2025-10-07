@@ -134,10 +134,15 @@
     </div>
 
     <!-- Scroll Indicator -->
-    <div class="scroll-indicator position-absolute bottom-0 start-50 translate-middle-x">
-      <div class="scroll-down">
-        <i class="bi bi-chevron-down fs-3 text-muted"></i>
-        <p class="small text-muted mt-2">Scrollen für mehr</p>
+    <div class="scroll-indicator position-absolute bottom-0 start-50 translate-middle-x mb-4">
+      <div class="scroll-down-wrapper text-center">
+        <div class="scroll-icon-container mb-2">
+          <div class="mouse-icon">
+            <div class="mouse-wheel"></div>
+          </div>
+        </div>
+        <p class="scroll-text mb-0">Scrollen für mehr</p>
+        <i class="bi bi-chevron-double-down scroll-arrow"></i>
       </div>
     </div>
   </section>
@@ -251,18 +256,95 @@ export default {
 }
 
 .scroll-indicator {
-  animation: bounce 2s infinite;
+  z-index: 20;
+  animation: scrollBounce 2s ease-in-out infinite;
 }
 
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+.scroll-down-wrapper {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 20px 30px;
+  border-radius: 50px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.scroll-down-wrapper:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.4);
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+}
+
+.mouse-icon {
+  width: 30px;
+  height: 45px;
+  border: 3px solid rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  position: relative;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.mouse-wheel {
+  width: 4px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 2px;
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: scrollWheel 1.5s ease-in-out infinite;
+}
+
+.scroll-text {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 8px;
+}
+
+.scroll-arrow {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.2rem;
+  animation: arrowBounce 1.5s ease-in-out infinite;
+  display: block;
+  margin-top: 5px;
+}
+
+@keyframes scrollBounce {
+  0%, 100% {
     transform: translateY(0) translateX(-50%);
   }
-  40% {
-    transform: translateY(-10px) translateX(-50%);
+  50% {
+    transform: translateY(-15px) translateX(-50%);
   }
-  60% {
-    transform: translateY(-5px) translateX(-50%);
+}
+
+@keyframes scrollWheel {
+  0% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(15px);
+  }
+}
+
+@keyframes arrowBounce {
+  0%, 100% {
+    transform: translateY(0);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translateY(5px);
+    opacity: 1;
   }
 }
 
@@ -278,6 +360,24 @@ export default {
   
   .floating-badge {
     font-size: 0.75rem !important;
+  }
+  
+  .scroll-down-wrapper {
+    padding: 15px 20px;
+    border-radius: 40px;
+  }
+  
+  .mouse-icon {
+    width: 25px;
+    height: 38px;
+  }
+  
+  .scroll-text {
+    font-size: 0.75rem;
+  }
+  
+  .scroll-arrow {
+    font-size: 1rem;
   }
 }
 </style>

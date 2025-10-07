@@ -100,7 +100,7 @@
                                 </p>
                               </div>
                               <a 
-                                href="https://buymeacoffee.com/yourusername" 
+                                href="https://buymeacoffee.com/thunder386" 
                                 target="_blank" 
                                 class="btn btn-warning btn-sm"
                               >
@@ -146,15 +146,15 @@
                       </div>
                     </div>
                     <h4 class="fw-bold">Andre Dingfelder</h4>
-                    <p class="text-muted">Frontend Entwickler</p>
+                    <p class="text-muted">Full Stack Entwickler</p>
                     <div class="contact-social mt-3">
-                      <a href="#" class="btn btn-outline-primary btn-sm me-2">
+                      <a href="https://www.linkedin.com/in/andre-dingfelder-528367228" class="btn btn-outline-primary btn-sm me-2">
                         <i class="bi bi-linkedin"></i>
                       </a>
-                      <a href="#" class="btn btn-outline-dark btn-sm me-2">
+                      <a href="https://github.com/Thunder386" class="btn btn-outline-dark btn-sm me-2">
                         <i class="bi bi-github"></i>
                       </a>
-                      <a href="#" class="btn btn-outline-info btn-sm">
+                      <a href="https://x.com/386Thunder" class="btn btn-outline-info btn-sm">
                         <i class="bi bi-twitter"></i>
                       </a>
                     </div>
@@ -171,21 +171,7 @@
                         </div>
                         <div>
                           <h6 class="mb-1 fw-bold">E-Mail</h6>
-                          <p class="mb-0 text-muted small">max.mustermann@email.com</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div class="contact-item card border-0 shadow-sm mb-3">
-                    <div class="card-body">
-                      <div class="d-flex align-items-center">
-                        <div class="contact-icon me-3">
-                          <i class="bi bi-phone-fill text-success fs-4"></i>
-                        </div>
-                        <div>
-                          <h6 class="mb-1 fw-bold">Telefon</h6>
-                          <p class="mb-0 text-muted small">+49 (0) 123 456 789</p>
+                          <p class="mb-0 text-muted small">info@andredingfelder.de</p>
                         </div>
                       </div>
                     </div>
@@ -199,7 +185,7 @@
                         </div>
                         <div>
                           <h6 class="mb-1 fw-bold">Standort</h6>
-                          <p class="mb-0 text-muted small">München, Deutschland</p>
+                          <p class="mb-0 text-muted small">Würzburg, Deutschland</p>
                         </div>
                       </div>
                     </div>
